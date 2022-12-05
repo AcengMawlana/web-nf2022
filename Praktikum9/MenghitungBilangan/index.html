@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Tugas Meghitung Bilangan</title>
+    <script>
+        function convert() {
+            let Nilaiawal = document.getElementById("value1").value;
+            let Nilaiakhir = document.getElementById("value2").value;
+            let hasil = parseInt(Nilaiawal) + parseInt(Nilaiakhir);
+
+            document.getElementById("hasil").value = hasil;
+        }
+    </script>
+
+</head>
+
+<body>
+    <fieldset>
+        <h1 class="h1-responsive fw-bold text-center my-2">Menghitung Penjumlahan</h1>
+        <p><input type="number" id="value1" onchange="convert()"> Nilai Awal</p>
+        <p class="min">+</p>
+        <p><input type="number" id="value2" onchange="convert()"> Nilai Akhir</p>
+        <p class="min2">=</p>
+        <p><input type="number" id="hasil" readonly> Hasil</p>
+    </fieldset>
+    </div>
+    </div>
+</body>
+
+</html>
