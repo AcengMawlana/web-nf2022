@@ -1,0 +1,49 @@
+body {
+    background-color: skyblue;
+}
+
+.progress-bar {
+    background-color: greenyellow;
+}
+
+.jumbotron {
+    background-color: yellowgreen;
+}
+
+
+nav>ol>li>a {
+    text-decoration: none;
+}
+
+
+
+section {
+    background-color: lightblue;
+}
+
+.footer {
+    background-color: darkgreen;
+}
+
+address {
+    color: white;
+}
+
+ul {
+    display: flex;
+
+}
+
+.list-item {
+    text-decoration: none;
+    list-style: none;
+    margin: 20px;
+}
+
+.list-item a {
+    color: aliceblue;
+}
+
+.col-md-4>h3 {
+    margin-left: 180px;
+}
